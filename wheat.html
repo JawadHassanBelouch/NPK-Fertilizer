@@ -1,0 +1,550 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords"
+    content="Medick Responsive web template, Bootstrap Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+  
+  <link href="//fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="../assets/css/style-starter.css">
+
+</head>
+
+<body>
+  <!--header-->
+  <div class="header-w3l">
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg stroke">
+          <a class="navbar-brand" href="index.html">
+            Agro<span class="sub-logo">C</span>ares</span>
+          </a>
+          <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+            <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+             </li>  
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact</a>
+             </li>     
+              <li class="nav-item active">
+                <a class="nav-link"href="services.html">Crops</a>
+              </li>
+              
+                   
+              <li class="search-bar ml-lg-3 mr-lg-5 mt-lg-0 mt-4">
+                <!--/search-right-->
+                <form class="search position-relative">
+                  <input type="search" class="search__input" name="search" placeholder="Search here.."
+                    onload="equalWidth()" required="">
+                  <span class="fa fa-search search__icon"></span>
+                </form>
+
+                <!--//search-right-->
+              </li>
+
+            </ul>
+
+          </div>
+          <!-- toggle switch for light and dark theme -->
+          <div class="mobile-position">
+            <nav class="navigation">
+              <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                  <input type="checkbox" id="checkbox">
+                  <div class="mode-container">
+                    <i class="gg-sun"></i>
+                    <i class="gg-moon"></i>
+                  </div>
+                </label>
+              </div>
+            </nav>
+          </div>
+          <!-- //toggle switch for light and dark theme -->
+        </nav>
+      </div>
+    </header>
+    </div>
+    <!-- //header -->
+    <!--/breadcrumb-bg-->
+    <div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
+      <div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
+        <h2 class="title pt-5">Crops</h2>
+        <ul class="breadcrumbs-custom-path mt-3 text-center">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> </li>
+          <li><a href="services.html">Crops</a></li>
+          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> wheat </li>
+        </ul>
+      </div>
+    </div>
+  <!--//breadcrumb-bg-->
+  <!-- banner bottom shape -->
+  <div class="position-relative">
+    <div class="shape overflow-hidden">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+      </svg>
+    </div>
+  </div>
+  <!-- banner bottom shape -->
+  <!--/serices-6-->
+  <section class="w3l-serices-6 py-5" id="services1">
+    <div class="container py-lg-5 py-md-4 py-2">
+      <div class="title-content text-center">
+        <h6 class="title-subhny text-center">
+          Services
+        </h6>
+        <h3 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">Wheat</h3>
+      </div>
+      <div class="grids-area-hny text-center row mt-lg-4">
+
+        <!-- NPK Calculator Section -->
+        <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div class="area-box icon-yellow npk-calculator-container">
+              <a href="#">
+                  <img src="assets/images/wheat.png" alt="" class="img-fluid radius-image">
+              </a>
+              <h4><a href="#feature" class="title-head">Wheat</a></h4>
+      
+              <!-- NPK Calculator Form -->
+              <form id="npk-calculator" class="npk-form">
+                <label for="nitrogen">Nitrogen (N):</label>
+                <input type="number" id="nitrogen" name="nitrogen" placeholder="Enter Nitrogen value" required oninput="updateProgress()"><br>
+                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                    <div id="nitrogen-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
+                </div>
+                
+                <label for="phosphorus">Phosphorus (P):</label>
+                <input type="number" id="phosphorus" name="phosphorus" placeholder="Enter Phosphorus value" required oninput="updateProgress()"><br>
+                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                    <div id="phosphorus-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
+                </div>
+                
+                <label for="potassium">Potassium (K):</label>
+                <input type="number" id="potassium" name="potassium" placeholder="Enter Potassium value" required oninput="updateProgress()"><br>
+                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                    <div id="potassium-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
+                </div>
+                
+                <button type="button" onclick="calculateFertilizer()" class="suggest-btn">Suggest Fertilizer</button>
+              </form>
+      
+              <!-- Suggestion Display -->
+              <div id="fertilizer-suggestion" class="suggestion-box"></div>
+
+            <!-- Fertilizer Modal -->
+            <div id="fertilizerModal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Fertilizer Suggestions</h3>
+                <table id="fertilizer-table" style="width: 100%; text-align: left;">
+                  <thead>
+                    <tr>
+                      <th>Fertilizer</th>
+                      <th>Suggestion</th>
+                      <th>Per Acre</th>
+                    </tr>
+                  </thead>
+                  <tbody id="fertilizer-result">
+                    <!-- Table rows will be inserted here -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+
+          </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
+        <div class="area-box icon-yellow npk-calculator-container">
+            <a href="#">
+                <img src="assets/images/wheat.png" alt="" class="img-fluid radius-image">
+            </a>
+            <h4><a href="#feature" class="title-head">Wheat</a></h4>
+    
+            <!-- NPK Calculator Display -->
+            <div class="npk-display">
+                <div class="progress-wrapper">
+                    <div class="progress-item" style="margin-top: 70px;">
+                        <label>Nitrogen (N): 19 mg/kg soil</label>
+                        <div class="progress-container">
+                            <div id="nitrogen-progress" class="progress-bar" style="height: 100%; width: 100%; background: #ADD8E6;"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item" style="margin-top: 60px;">
+                        <label>Phosphorus (P): 57.5 mg/kg soil</label>
+                        <div class="progress-container">
+                            <div id="phosphorus-progress" class="progress-bar" style="height: 100%; width: 100%; background: #800080"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item" style="margin-top: 60px; margin-bottom: 20px;">
+                        <label>Potassium (K): 31 mg/kg soil</label>
+                        <div class="progress-container">
+                            <div id="potassium-progress" class="progress-bar" style="height: 100%; width: 100%; background: #FFA500"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+              
+            </div>
+        </div>
+    </div>
+    
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--//services-6-->
+  <!-- footer -->
+  <section class="w3l-footer-29-main">
+    <div class="footer-29 py-5">
+      <div class="container py-lg-4">
+        <div class="row footer-top-29">
+          <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+            <div class="footer-logo mb-3">
+              <a class="navbar-brand" href="index.html">AgroCares</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Lorem ipsum dolor sit amet elit.</p>
+            <ul class="mt-3">
+              <li><a href="tel:+(21) 255 999 8888"><span class="fa fa-phone"></span> +(21) 255 999 8888</a></li>
+              <li><a href="mailto:AgroCares@mail.com" class="mail"><span class="fa fa-envelope-open-o"></span>
+                AgroCares@mail.com</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+
+            <ul>
+              <h6 class="footer-title-29">History</h6>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="blog.html"> Blog Posts</a></li>
+              <li><a href="services.html">Crops</a></li>
+              <li><a href="#careers"> Careers</a></li>
+              <li><a href="about.html">Team</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">Useful Links</h6>
+            <ul>
+              <li><a href="#terms">Terms of service</a></li>
+              <li><a href="#privacy"> Privacy policy</a></li>
+              <li><a href="#doc"> Documentation</a></li>
+              <li><a href="#support"> Support</a></li>
+              <li><a href="#components"> Components</a></li>
+              <li><a href="#changelog"> Changelog</a></li>
+            </ul>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
+            <h6 class="footer-title-29">Subscribe to our Newsletter </h6>
+            <p>Enter your email and receive the latest news, updates and special offers from us.</p>
+
+            <form action="#" class="subscribe" method="post">
+              <input type="email" name="email" placeholder="Your Email Address" required="">
+              <button class="btn btn-style btn-primary w-100 mt-3">Subscibe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //footer -->
+
+  <!-- copyright -->
+  <section class="w3l-copyright">
+    <div class="container">
+      <div class="row bottom-copies">
+        <div class="col-lg-4 main-social-footer-29">
+          <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+          <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+          <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+          <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+      &#10548;
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </section>
+  <!-- //copyright -->
+  <!--//footer-->
+  <!-- Template JavaScript -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/theme-change.js"></script>
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+  <script>
+
+function updateProgress() {
+    // Get input values
+    const nitrogenValue = document.getElementById("nitrogen").value || 0;
+    const phosphorusValue = document.getElementById("phosphorus").value || 0;
+    const potassiumValue = document.getElementById("potassium").value || 0;
+    
+    // Select progress bar elements
+    const nitrogenProgress = document.getElementById("nitrogen-progress");
+    const phosphorusProgress = document.getElementById("phosphorus-progress");
+    const potassiumProgress = document.getElementById("potassium-progress");
+    
+    // Calculate percentages
+    const nitrogenPercent = (nitrogenValue / 19) * 100;
+    const phosphorusPercent = (phosphorusValue / 57.5) * 100;
+    const potassiumPercent = (potassiumValue / 31) * 100;
+
+    // Nitrogen logic
+    if (nitrogenValue > 19) {
+        nitrogenProgress.style.backgroundColor = 'red';
+        nitrogenProgress.textContent = 'Exceed';
+    } else {
+        nitrogenProgress.style.backgroundColor = '#ADD8E6';
+        nitrogenProgress.textContent = Math.round(nitrogenPercent) + '%';
+    }
+    nitrogenProgress.style.width = nitrogenPercent + '%';
+    
+    // Phosphorus logic
+    if (phosphorusValue > 57.5) {
+        phosphorusProgress.style.backgroundColor = 'red';
+        phosphorusProgress.textContent = 'Exceed';
+    } else {
+        phosphorusProgress.style.backgroundColor = '#800080';
+        phosphorusProgress.textContent = Math.round(phosphorusPercent) + '%';
+    }
+    phosphorusProgress.style.width = phosphorusPercent + '%';
+    
+    // Potassium logic
+    if (potassiumValue > 31) {
+        potassiumProgress.style.backgroundColor = 'red';
+        potassiumProgress.textContent = 'Exceed';
+    } else {
+        potassiumProgress.style.backgroundColor = '#FFA500';
+        potassiumProgress.textContent = Math.round(potassiumPercent) + '%';
+    }
+    potassiumProgress.style.width = potassiumPercent + '%';
+}
+
+
+// Get modal elements
+var modal = document.getElementById("fertilizerModal");
+var closeBtn = document.getElementsByClassName("close")[0];
+
+// Show the modal when the button is clicked
+function calculateFertilizer() {
+  var nitrogen = parseFloat(document.getElementById('nitrogen').value) || 0;
+  var phosphorus = parseFloat(document.getElementById('phosphorus').value) || 0;
+  var potassium = parseFloat(document.getElementById('potassium').value) || 0;
+
+  var Nitrogen_s = 19 - nitrogen; // 19 is the threshold for nitrogen
+  var urea = (100/19)*Nitrogen_s;
+
+  var Phosphorus_s = 57.5 - phosphorus; // 19 is the threshold for phosphorus
+  var dap = (100/57.5) * Phosphorus_s; 
+
+  var Potassium_s = 31 - potassium; // 19 is the threshold for phosphorus
+  var mop = (50/31) * Potassium_s;
+
+  // Calculate number of urea bags
+  var urearemainingKg = urea % 50; // Calculates the remaining urea that doesn't fit into full bags
+  var dapremainingKg = dap % 50; // Calculates the remaining urea that doesn't fit into full bags
+  var mopremainingKg = mop % 50; // Calculates the remaining urea that doesn't fit into full bags
+  
+  var ureaBags = Math.floor(urea / 50); // 1 bag = 46 kg, rounding up the number of bags
+  var dapBags = Math.floor(dap / 50); // 1 bag = 46 kg, rounding up the number of bags
+  var mopBags = Math.floor(mop / 50); // 1 bag = 46 kg, rounding up the number of bags
+
+  var tableContent = "";
+  
+  // Check values and provide suggestions in rows
+  if (nitrogen < 19) { // Nitrogen value below 19 means we need more nitrogen
+    tableContent += `<tr>
+                      <td>Urea</td>
+                      <td>Nitrogen-rich fertilizers like Urea</td>`;
+
+                      if (urea >= 50) {
+                        // Only show bags if urea is greater than 50
+                        if (ureaBags === 1 && urearemainingKg > 0) {
+                          // If only 1 bag and there is a remainder
+                          tableContent += `<td>1 bag and ${urearemainingKg.toFixed(2)} kg</td>`;
+                        } else if (ureaBags > 1 && urearemainingKg > 0) {
+                          // If more than 1 bag and there is a remainder
+                          tableContent += `<td>${ureaBags} bags and ${urearemainingKg.toFixed(2)} kg</td>`;
+                        } else {
+                          // If no remainder, show only bags
+                          tableContent += `<td>${ureaBags} bag${ureaBags > 1 ? 's' : ''}</td>`;
+                        }
+                      } else {
+                        // If urea is less than or equal to 50, show in kg
+                        tableContent += `<td>${urea.toFixed(2)} kg</td>`;
+                      }
+
+    tableContent += `</tr>`; // Close the row after adding the final cell
+
+  }
+  
+  else {
+    tableContent += "<tr><td>Urea</td><td>Nitrogen levels are sufficient</td><td>0 kg</td></tr>";
+  }
+  if (phosphorus < 57.5) {
+    tableContent += `<tr>
+                      <td>DAP</td>
+                      <td>Phosphorus-rich fertilizers like DAP</td>`;
+
+                      if (dap >= 50) {
+                        // Only show bags if urea is greater than 50
+                        if (dapBags === 1 && dapremainingKg > 0) {
+                          // If only 1 bag and there is a remainder
+                          tableContent += `<td>1 bag and ${dapremainingKg.toFixed(2)} kg</td>`;
+                        } else if (dapBags > 1 && dapremainingKg > 0) {
+                          // If more than 1 bag and there is a remainder
+                          tableContent += `<td>${dapBags} bags and ${dapremainingKg.toFixed(2)} kg</td>`;
+                        } else {
+                          // If no remainder, show only bags
+                          tableContent += `<td>${dapBags} bag${dapBags > 1 ? 's' : ''}</td>`;
+                        }
+                      } else {
+                        // If urea is less than or equal to 50, show in kg
+                        tableContent += `<td>${dap.toFixed(2)} kg</td>`;
+                      }
+
+    tableContent += `</tr>`; // Close the row after adding the final cell
+  }
+  else {
+    tableContent += "<tr><td>Urea</td><td>Phosphoruslevels are sufficient</td><td>0 kg</td></tr>";
+  }
+  if (potassium < 31) {
+    tableContent += `<tr>
+                      <td>MOP</td>
+                      <td>Potassium-rich fertilizers like MOP</td>`;
+
+                      if (mop >= 50) {
+                        // Only show bags if urea is greater than 50
+                        if (mopBags === 1 && mopremainingKg > 0) {
+                          // If only 1 bag and there is a remainder
+                          tableContent += `<td>1 bag and ${mopremainingKg.toFixed(2)} kg</td>`;
+                        } else if (mopBags > 1 && mopremainingKg > 0) {
+                          // If more than 1 bag and there is a remainder
+                          tableContent += `<td>${mopBags} bags and ${mopremainingKg.toFixed(2)} kg</td>`;
+                        } else {
+                          // If no remainder, show only bags
+                          tableContent += `<td>${mopBags} bag${dapBags > 1 ? 's' : ''}</td>`;
+                        }
+                      } else {
+                        // If urea is less than or equal to 50, show in kg
+                        tableContent += `<td>${mop.toFixed(2)} kg</td>`;
+                      }
+
+    tableContent += `</tr>`; // Close the row after adding the final cell
+  }
+  else {
+    tableContent += "<tr><td>Urea</td><td>Potassium levels are sufficient</td><td>0 kg</td></tr>";
+  }
+
+  // If no suggestions, indicate sufficient nutrients
+  tableContent = tableContent || "<tr><td colspan='2'>Your soil has sufficient nutrients!</td></tr>";
+
+  // Update the table content and show modal
+  document.getElementById('fertilizer-result').innerHTML = tableContent;
+  document.getElementById("fertilizerModal").style.display = "flex"; // Show the modal
+}
+
+// Close modal functionality
+document.getElementsByClassName("close")[0].onclick = function() {
+  document.getElementById("fertilizerModal").style.display = "none";
+}
+
+  </script>
+  <!--//MENU-JS-->
+
+
+  <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
