@@ -125,7 +125,7 @@ Author URL: http://w3layouts.com
       <div class="grids-area-hny text-center row mt-lg-4">
 
         <!-- NPK Calculator Section -->
-        <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
+        <div class="col-lg-12 col-md-12 grids-feature mt-lg-0 mt-4">
           <div class="area-box icon-yellow npk-calculator-container">
               <a href="#">
                   <img src="assets/images/wheat.png" alt="" class="img-fluid radius-image">
@@ -136,22 +136,43 @@ Author URL: http://w3layouts.com
               <form id="npk-calculator" class="npk-form">
                 <label for="nitrogen">Nitrogen (N):</label>
                 <input type="number" id="nitrogen" name="nitrogen" placeholder="Enter Nitrogen value" required oninput="updateProgress()"><br>
-                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                <div class="progress-container" style="position: relative; width: 100%; height: 50px; background-color: #f3f3f3;">
                     <div id="nitrogen-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-container">
+                    <div id="nitrogen-progress" class="progress-bar" style="width: 100%; background: #ADD8E6;color: black;">
+                        <span class="progress-label">Nitrogen (N): 19 mg/kg soil = 100%</span>
+                    </div>
+                  </div>
                 </div>
                 
                 <label for="phosphorus">Phosphorus (P):</label>
                 <input type="number" id="phosphorus" name="phosphorus" placeholder="Enter Phosphorus value" required oninput="updateProgress()"><br>
-                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                <div class="progress-container" style="position: relative; width: 100%; height: 50px; background-color: #f3f3f3;">
                     <div id="phosphorus-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
                 </div>
+                <div class="progress-item">
+                  <div class="progress-container">
+                  <div id="nitrogen-progress" class="progress-bar" style="width: 100%; background: #800080;color: black;">
+                      <span class="progress-label">Phosphorus (P): 57.5 mg/kg soil = 100%</span>
+                  </div>
+                </div>
+              </div>
                 
                 <label for="potassium">Potassium (K):</label>
                 <input type="number" id="potassium" name="potassium" placeholder="Enter Potassium value" required oninput="updateProgress()"><br>
-                <div class="progress-container" style="position: relative; width: 100%; height: 20px; background-color: #f3f3f3;">
+                <div class="progress-container" style="position: relative; width: 100%; height: 50px; background-color: #f3f3f3;">
                     <div id="potassium-progress" class="progress-bar" style="height: 100%; text-align: center; line-height: 20px; color: white;"></div>
                 </div>
-                
+                <div class="progress-item">
+                  <div class="progress-container">
+                  <div id="nitrogen-progress" class="progress-bar" style="width: 100%; background: #FFA500;color: black;">
+                      <span class="progress-label">Potassium (K): 31 mg/kg soi = 100%</span>
+                  </div>
+                </div>
+              </div>
+              <br>
                 <button type="button" onclick="calculateFertilizer()" class="suggest-btn">Suggest Fertilizer</button>
               </form>
       
@@ -181,43 +202,6 @@ Author URL: http://w3layouts.com
 
           </div>
       </div>
-
-      <div class="col-lg-6 col-md-6 grids-feature mt-lg-0 mt-4">
-        <div class="area-box icon-yellow npk-calculator-container">
-            <a href="#">
-                <img src="assets/images/wheat.png" alt="" class="img-fluid radius-image">
-            </a>
-            <h4><a href="#feature" class="title-head">Wheat</a></h4>
-    
-            <!-- NPK Calculator Display -->
-            <div class="npk-display">
-                <div class="progress-wrapper">
-                    <div class="progress-item" style="margin-top: 70px;">
-                        <label>Nitrogen (N): 19 mg/kg soil</label>
-                        <div class="progress-container">
-                            <div id="nitrogen-progress" class="progress-bar" style="height: 100%; width: 100%; background: #ADD8E6;"></div>
-                        </div>
-                    </div>
-                    <div class="progress-item" style="margin-top: 60px;">
-                        <label>Phosphorus (P): 57.5 mg/kg soil</label>
-                        <div class="progress-container">
-                            <div id="phosphorus-progress" class="progress-bar" style="height: 100%; width: 100%; background: #800080"></div>
-                        </div>
-                    </div>
-                    <div class="progress-item" style="margin-top: 60px; margin-bottom: 20px;">
-                        <label>Potassium (K): 31 mg/kg soil</label>
-                        <div class="progress-container">
-                            <div id="potassium-progress" class="progress-bar" style="height: 100%; width: 100%; background: #FFA500"></div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-              
-            </div>
-        </div>
-    </div>
-    
       </div>
       </div>
     </div>
